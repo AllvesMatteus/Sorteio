@@ -1,7 +1,7 @@
 body {
     font-family: 'Baskerville Old Face', serif;
     background-color: #f4f4f4;
-    background-image: url('bg.png');
+    background-image: url('img/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,23 +12,6 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-}
-
-@media (min-width: 768px) {
-    body {
-        background-image: url('bg-desktop.jpg');
-    }
-    .git {
-        text-decoration: none;
-        color: #01755B;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-        font-size: 18px;
-    }
-    
-    footer a i {
-        color: #585858;
-        font-size: 19px;
-    }
 }
 
 .container {
@@ -62,7 +45,6 @@ button {
 }
 
 button:hover {
-    width: 150px;
     background-color: #218838;
 }
 
@@ -101,4 +83,40 @@ li {
     margin: 5px 0;
     color: green;
     font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url('img/bg-desktop.jpg');
+    }
+
+    .container h1 {
+        font-size: 38px;
+    }
+
+    .git {
+        font-size: 18px;
+    }
+        
+    .result {
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 30px;
+    }
+
+    footer a i {
+        font-size: 19px;
+    }
+    
+    button {
+        padding: 5px 10px;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    button:hover {
+        width: 100px;
+    }
 }
