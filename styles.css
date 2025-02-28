@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Baskerville Old Face', serif;
     background-color: #f4f4f4;
     background-image: url('bg.png');
     background-repeat: no-repeat;
@@ -18,11 +18,18 @@ body {
     color: #585858;
     max-width: 400px;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     padding: 20px;
     background: none;
     border-radius: 8px;
     text-align: center;
+}
+
+.container h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    color: #01755B;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 button {
@@ -42,6 +49,24 @@ button:hover {
     background-color: #218838;
 }
 
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.git {
+    text-decoration: none;
+    color: #01755B;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+
+footer a i {
+    color: #585858;
+    font-size: 19px;
+}
+
 .result {
     font-size: 24px;
     margin: 20px 0;
@@ -55,7 +80,7 @@ ul {
 }
 
 li {
-    font-size: 18px;
+    font-size: 40px;
     margin: 5px 0;
     color: green;
     font-weight: bold;
