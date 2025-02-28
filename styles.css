@@ -14,6 +14,23 @@ body {
     text-align: center;
 }
 
+@media (min-width: 768px) {
+    body {
+        background-image: url('bg-desktop.jpg');
+    }
+    .git {
+        text-decoration: none;
+        color: #01755B;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        font-size: 18px;
+    }
+    
+    footer a i {
+        color: #585858;
+        font-size: 19px;
+    }
+}
+
 .container {
     color: #585858;
     max-width: 400px;
@@ -59,12 +76,12 @@ footer {
     text-decoration: none;
     color: #01755B;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    font-size: 18px;
+    font-size: 12px;
 }
 
 footer a i {
     color: #585858;
-    font-size: 19px;
+    font-size: 11px;
 }
 
 .result {
