@@ -1,7 +1,7 @@
 # Gerador de Números Aleatórios
 
 ## Novidade
-Agora, ao clicar no botão "Gerar Número", um timer de contagem regressiva de 3 a 0 será exibido antes de mostrar o número sorteado.
+Agora, ao clicar no botão "Gerar Número", um timer de contagem regressiva de 5 a 0 será exibido antes de mostrar o número sorteado.
 
 
 Este projeto é um simples gerador de números aleatórios, desenvolvido em HTML, CSS e JavaScript. Abaixo estão as principais funcionalidades do código:
